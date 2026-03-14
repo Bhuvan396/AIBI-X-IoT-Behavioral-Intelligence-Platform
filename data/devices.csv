@@ -1,0 +1,7 @@
+device_id,ip_address,device_type,manufacturing_date
+camera_01,192.168.1.101,camera,2022-05-15
+camera_02,192.168.1.102,camera,2018-03-20
+sensor_01,192.168.1.111,sensor,2023-01-10
+sensor_02,192.168.1.112,sensor,2017-11-30
+printer_01,192.168.1.121,printer,2021-08-12
+thermostat_01,192.168.1.131,thermostat,2019-06-05
