@@ -1,0 +1,80 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python logs
+*.log
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+build/
+dist/
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.*
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor Files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# ML Model Files (optional)
+# =========================
+*.h5
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# =========================
+# Temporary Data
+# =========================
+*.tmp
+*.cache
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+logs/
+
+# =========================
+# Runtime generated CSV
+# =========================
+prediction_history.csv
+temp_*.csv

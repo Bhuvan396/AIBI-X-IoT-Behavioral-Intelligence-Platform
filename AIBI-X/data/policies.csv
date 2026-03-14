@@ -1,0 +1,7 @@
+device_type,allowed_ports,allowed_destinations
+camera,443,192.168.1.1,54.239.28.85
+sensor,1883,192.168.1.1
+printer,9100,192.168.1.1
+thermostat,443,54.239.28.85
+router,*,*
+gateway,*,*

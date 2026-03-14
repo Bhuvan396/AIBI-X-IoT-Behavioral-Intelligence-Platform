@@ -1,0 +1,127 @@
+{
+    "accuracy": 1.0,
+    "f1_score": 1.0,
+    "best_params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.01,
+        "max_depth": 3,
+        "n_estimators": 100,
+        "subsample": 0.8
+    },
+    "confusion_matrix": [
+        [
+            400,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            400,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            400,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            400,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            400,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            400
+        ]
+    ],
+    "class_report": {
+        "c2_beaconing": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 400.0
+        },
+        "exfiltration": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 400.0
+        },
+        "normal": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 400.0
+        },
+        "policy_violation": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 400.0
+        },
+        "recon": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 400.0
+        },
+        "slow_poisoning": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 400.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2400.0
+        },
+        "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2400.0
+        }
+    },
+    "feature_importance": {
+        "traffic_volume": 0.027953557670116425,
+        "packet_count": 0.05210461840033531,
+        "unique_destinations": 0.08937755227088928,
+        "unique_dst_ports": 0.014492139220237732,
+        "port_entropy": 0.06770897656679153,
+        "avg_packet_size": 0.18467319011688232,
+        "flow_count": 0.03029700554907322,
+        "avg_duration": 0.07789817452430725,
+        "periodicity_score": 0.18100035190582275,
+        "tcp_ratio": 0.1188461184501648,
+        "connection_frequency": 0.06812560558319092,
+        "destination_repetition_score": 0.0875227153301239,
+        "time_of_day_activity": 0.0
+    }
+}
