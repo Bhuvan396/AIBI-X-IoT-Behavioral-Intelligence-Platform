@@ -3,7 +3,7 @@ import Dashboard from './pages/Dashboard';
 import DeviceDetails from './pages/DeviceDetails';
 import AttackControl from './pages/AttackControl';
 import Reports from './pages/Reports';
-import BotnetTopologyPage from './botnet_module/BotnetTopologyPage';
+import BotnetTopologyPage from './modules/botnet_lab/BotnetTopologyPage';
 import { Activity, ShieldAlert, Cpu, FileText, Network } from 'lucide-react';
 
 function App() {

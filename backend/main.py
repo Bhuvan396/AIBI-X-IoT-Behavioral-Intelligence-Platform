@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from api import telemetry_api, attack_api, ml_api, detection_api, explain_api, trust_api
-from botnet_module import botnet_api
+from modules.botnet_lab import api as botnet_lab_api
 from scheduler.realtime_scheduler import realtime_loop
 
 from contextlib import asynccontextmanager
@@ -48,7 +48,7 @@ app.include_router(ml_api.router)
 app.include_router(detection_api.router)
 app.include_router(explain_api.router)
 app.include_router(trust_api.router)
-app.include_router(botnet_api.router)
+app.include_router(botnet_lab_api.router)
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8888, reload=True)
