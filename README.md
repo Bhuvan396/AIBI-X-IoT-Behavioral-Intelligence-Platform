@@ -2,7 +2,7 @@
 ### Adaptive IoT Behavioral Intelligence & Trust Analytics Platform
 
 AIBI-X is an IoT cybersecurity analytics platform designed to monitor device behavior using network telemetry and machine learning.  
-The system analyzes communication patterns of IoT devices, detects behavioral anomalies, and generates a dynamic trust score that reflects the security posture of each device in the network.
+The system analyzes communication patterns of IoT devices, detects behavioral anomalies, and generates a dynamic trust score representing the security posture of each device in the network.
 
 Instead of relying on traditional signature-based detection, the platform focuses on behavioral analysis. By studying how devices communicate across the network, AIBI-X can identify suspicious activity, detect policy violations, and highlight potential cyber threats affecting IoT environments.
 
@@ -14,9 +14,8 @@ Instead of relying on traditional signature-based detection, the platform focuse
 - Dynamic trust score evaluation for continuous device risk assessment  
 - Machine learning based detection of abnormal network behavior  
 - Detection of security events such as reconnaissance, exfiltration, C2 beaconing, policy violations, and behavioral drift  
-- Explainable AI insights that highlight the behavioral indicators responsible for each detection  
+- Explainable AI insights highlighting the behavioral indicators responsible for each detection  
 - Interactive dashboard for monitoring device behavior and security analytics  
-- Botnet topology lab for simulating botnet behavior and analyzing network graph patterns  
 
 ---
 
@@ -56,7 +55,6 @@ AIBI-X
 ├── backend
 │   ├── api
 │   ├── models
-│   ├── botnet_module
 │   ├── telemetry_engine
 │   └── trust_engine
 │
