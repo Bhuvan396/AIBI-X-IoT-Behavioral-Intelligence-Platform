@@ -57,6 +57,9 @@ Thumbs.db
 *.joblib
 *.pkl
 
+# Project specific botnet models (allow these)
+!backend/modules/botnet_lab/models/*.pkl
+
 # =========================
 # Temporary Data
 # =========================
@@ -72,9 +75,12 @@ Thumbs.db
 # Logs
 # =========================
 logs/
+/tmp/
 
 # =========================
 # Runtime generated CSV
 # =========================
 prediction_history.csv
 temp_*.csv
+data/telemetry.csv
+data/botnet_training_dataset.csv
