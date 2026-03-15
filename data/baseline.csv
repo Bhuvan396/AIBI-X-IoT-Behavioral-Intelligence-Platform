@@ -1,7 +1,0 @@
-device_id,traffic_volume_mean,traffic_volume_std,unique_destinations_mean,port_entropy_mean,periodicity_mean
-camera_01,100000,5000,12,0.8,0.95
-camera_02,100000,5000,12,0.8,0.95
-sensor_01,5000,200,4,0.4,0.98
-sensor_02,5000,200,4,0.4,0.98
-printer_01,50000,2000,8,1.2,0.7
-thermostat_01,2000,100,2,0.2,0.99
